@@ -8,7 +8,7 @@ data.innerHTML=`<div class="formElements"></div>
 let formdata=document.querySelector('.formElements');
 formdata.innerHTML=`
 
-<form class="form"> 
+<form class="form" method="POST"> 
 
 <div class="form-data">
 <label for="firstname"><strong>FirstName</strong></label><br>
